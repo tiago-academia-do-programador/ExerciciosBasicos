@@ -19,7 +19,7 @@ namespace ExercicioCinco.ConsoleApp
 
             salarioComAumento = salarioAtual + salarioAtual * valorAumento;
 
-            salarioFinal = salarioComAumento + salarioComAumento * impostos;
+            salarioFinal = salarioComAumento - salarioComAumento * impostos;
 
             Console.WriteLine("\nO salário com aumento é: " + salarioComAumento);
             Console.WriteLine("O salário final é: " + salarioFinal);
